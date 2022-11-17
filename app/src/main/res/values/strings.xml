@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CoffeeOdering</string>
+    <string name="_99_all_products">
+        99+
+        <br>
+        All Products
+        </br>
+    </string>
+    <string name="_48_coffee">
+        48
+        <br>Coffee</br> </string>
+</resources>

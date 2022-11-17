@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="30sp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starbucks Coffee"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cart"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
+        android:layout_marginLeft="80sp"
+        android:backgroundTint="@color/Cart"
+        android:layout_gravity="left"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Coffee"
+    android:backgroundTint="@color/Cart"
+    android:text="@string/_99_all_products"
+    android:layout_gravity="left"
+    android:paddingStart="-35sp"
+    android:paddingBottom="-10sp"
+    android:lineHeight="7sp"
+    android:textStyle="bold"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Food"
+            android:layout_marginLeft="30sp"
+            android:backgroundTint="@color/food"
+            android:text="@string/_48_coffee"
+            android:paddingStart="-35sp"
+           android:layout_gravity="left"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AllPdts"
+            android:layout_marginLeft="20sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Coffee"
+        android:textSize="35sp"
+        android:layout_marginHorizontal="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
